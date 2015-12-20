@@ -94,5 +94,7 @@
 })(window.jQuery);
 
 jQuery(function($) {
-		
+	var $elements = $('[class*="col-"]');
+	var columns = $elements.detectGridColumns();
+	$elements.equalHeightGrid(columns);	
 });
