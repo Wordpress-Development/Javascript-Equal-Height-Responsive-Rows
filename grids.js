@@ -92,3 +92,7 @@
     };
 
 })(window.jQuery);
+
+jQuery(function($) {
+		
+});
